@@ -41,7 +41,7 @@ function Benefit(props) {
                 <ul className={classes.list}>
                   <li>Phase 1 : Build MVP, kyc and Marktplace</li>
                   <li>Phase 2 : Develop DAO and Tokenomics</li>
-                  <li>Phase 3 : Testing  Feautures</li>  
+                  <li>Phase 3 : Testing  Feautures</li>
                   <li>Phase 4 : Investment and go testnet</li>
                   <li>Phase 5 : Audit Smart Contracts</li>
                   <li>Phase 6 : Whitelisting Process</li>

@@ -13,7 +13,6 @@ import Benefit from '../components/Benefit';
 import Team from '../components/Team';
 import FooterWithCounter from '../components/Footer/FooterWithCounter';
 import PageNav from '../components/PageNav';
-import Notification from '../components/Notification';
 import brand from '../public/text/brand';
 
 const sectionMargin = margin => (margin * 20);
@@ -59,7 +58,7 @@ function Landing(props) {
     <React.Fragment>
       <Head>
         <title>
-          { brand.crypto.name }
+          {brand.crypto.name}
           &nbsp; - Home Page
         </title>
       </Head>
@@ -78,14 +77,14 @@ function Landing(props) {
             <Promotion />
           </section>
           <section id="feature" className={isTablet ? classes.spaceTopShort : ''}>
-          <Feature />
+            <Feature />
           </section>
           <section id="benefit" className={classes.spaceTopShort}>
-          <Benefit />
+            <Benefit />
           </section>
           <section className={classes.spaceTop}>
             <Team />
-          </section>          
+          </section>
           {/* <Hidden mdDown>
             <Notification />
           </Hidden> */}

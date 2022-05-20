@@ -22,7 +22,7 @@ export default function TitleSecondary(props) {
   return (
     <div className={clsx(classes.titleSecondary, setAlign(align))}>
       <Typography variant="h4">
-        {children}        
+        {children}
       </Typography>
     </div>
   );

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
@@ -17,7 +16,7 @@ const sliderData = [
     image: imgAPI.crypto[0],
     title: 'EXTRA LIFE NFT',
     desc: 'Dapp that supports the value of an NFT with a life insurance .',
-    
+
   },
   {
     image: imgAPI.crypto[1],
@@ -25,12 +24,11 @@ const sliderData = [
     desc: 'TIME is a stable coin that keeps value one on one to the premiums paid and the performance of the assets being managed',
     date: '12 Jul - 10 Aug'
   },
- 
+
 ];
 
-function Promotion(props) {
+function Promotion() {
   const classes = useStyles();
-  const { t } = props;
   return (
     <div className={classes.root}>
       <div className={classes.sliderWrap}>
@@ -73,9 +71,7 @@ function Promotion(props) {
                     <Typography component="p">
                       {item.desc}
                     </Typography>
-                    <section className={classes.time}>
-                     
-                    </section>
+
                   </Paper>
                 </Grid>
               </Grid>
@@ -86,9 +82,5 @@ function Promotion(props) {
     </div>
   );
 }
-
-Promotion.propTypes = {
-  t: PropTypes.func.isRequired
-};
 
 export default withTranslation(['crypto-landing'])(Promotion);

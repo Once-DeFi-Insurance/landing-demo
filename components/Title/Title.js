@@ -4,15 +4,13 @@ import Typography from '@material-ui/core/Typography';
 import clsx from 'clsx';
 import useStyles from './title-style';
 
-
 export default function Title(props) {
   const classes = useStyles();
-;
+
   const {
     text,
     align,
   } = props;
-  const { head} = props;
   const setAlign = alignment => {
     switch (alignment) {
       case 'left':
@@ -26,7 +24,7 @@ export default function Title(props) {
     }
   };
   return (
-    <div className={clsx(classes.title,classes.desc, setAlign(align))}>
+    <div className={clsx(classes.title, classes.desc, setAlign(align))}>
       <div className={classes.deco}>
         <svg width="38px" height="43px" viewBox="0 0 38 43" version="1.1">
           <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
@@ -36,9 +34,9 @@ export default function Title(props) {
       </div>
       <Typography variant="h4">
         {text}
-        {head}
+
       </Typography>
-          
+
     </div>
   );
 }

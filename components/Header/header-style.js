@@ -1,7 +1,6 @@
 import { makeStyles, alpha, darken } from '@material-ui/core/styles';
 import flag from '~/public/images/flag-logo.png';
 
-
 const flagIcon = {
   width: 16,
   height: 16,

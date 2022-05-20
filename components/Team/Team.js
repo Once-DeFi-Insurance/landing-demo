@@ -13,7 +13,6 @@ import Title from '../Title';
 import useStyles from './team-style';
 import { useText } from '~/theme/common';
 
-
 const team = [
   {
     photo: imgAPI.profile[0],
@@ -40,10 +39,8 @@ const team = [
     name: 'Igor Kunjavskij',
     title: 'Full stack Developer'
   },
-  
-  
-];
 
+];
 function Featured(props) {
   const classes = useStyles();
   const { t } = props;
@@ -64,12 +61,11 @@ function Featured(props) {
           delay={200}
           duration={0.6}
         >
-           <Title className={text.subtitle2} text={t('common:crypto-landing.team_title')} align="center" />
+          <Title className={text.subtitle2} text={t('common:crypto-landing.team_title')} align="center" />
 
-        <Typography display="block" align="center" className={text.subtitle2}>
-                  {t('common:crypto-landing.team_desc')}
-        </Typography>
-
+          <Typography display="block" align="center" className={text.subtitle2}>
+            {t('common:crypto-landing.team_desc')}
+          </Typography>
 
         </ScrollAnimation>
         <div className={classes.teamWrap}>

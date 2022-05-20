@@ -27,9 +27,8 @@ const coinData = [
     progress: 20,
     color: '#21D3D7'
   },
-  
-];
 
+];
 function MoreFeature(props) {
   const classes = useStyles();
   const text = useText();

@@ -19,7 +19,7 @@ const benefitStyles = makeStyles(theme => ({
       paddingRight: theme.spacing(4)
     }
   },
-  desc: {    
+  desc: {
     padding: 0,
     color: theme.palette.common.white,
     '& h4': {

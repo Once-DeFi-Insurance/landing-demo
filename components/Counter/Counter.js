@@ -14,7 +14,7 @@ function Counter(props) {
   const classes = useStyles();
   const text = useText();
   const { t } = props;
-  const [play, setPlay] = useState(false);
+  const [setPlay] = useState(false);
 
   const countup = (val, isPlay) => (
     <span>
@@ -38,9 +38,9 @@ function Counter(props) {
           afterAnimatedIn={handlePlay}
         >
           <Typography variant="h3" className={text.title}>
-            {countup( )}
+            {countup()}
             &nbsp;
-            {countup( )}
+            {countup()}
             &nbsp;
             {countup()}
           </Typography>

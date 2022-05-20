@@ -124,18 +124,13 @@ function MainFeature(props) {
               <div className={classes.lower}>
                 <Paper className={classes.paper}>
                   <span className="ion-ios-ionic-outline" />
-                  <Typography variant="h6">
-                    
-                  </Typography>
                   <Typography display="block">
                     {t('common:crypto-landing.mainfeature_supported')}
                   </Typography>
                 </Paper>
                 <Paper className={classes.paper}>
                   <span className="ion-ios-people-outline" />
-                  <Typography variant="h6">
-                    
-                  </Typography>
+
                   <Typography display="block">
                     {t('common:crypto-landing.mainfeature_registered')}
                   </Typography>
@@ -144,18 +139,14 @@ function MainFeature(props) {
               <div className={classes.higher}>
                 <Paper className={classes.paper}>
                   <span className="ion-ios-archive-outline" />
-                  <Typography variant="h6">
-                    
-                  </Typography>
+
                   <Typography display="block">
                     {t('common:crypto-landing.mainfeature_open')}
                   </Typography>
                 </Paper>
                 <Paper className={classes.paper}>
                   <span className="ion-ios-heart-outline" />
-                  <Typography variant="h6">
-                    
-                  </Typography>
+
                   <Typography display="block">
                     {t('common:crypto-landing.mainfeature_invested')}
                   </Typography>
