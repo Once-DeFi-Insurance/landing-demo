@@ -1,6 +1,6 @@
 const link = {
   crypto: {
-    home: '/',
+    home: './',
     contact: '/contact',
     login: '/login',
     register: '/register'
