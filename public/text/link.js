@@ -3,7 +3,8 @@ const link = {
     home: './',
     contact: '/contact',
     login: '/login',
-    register: '/register'
+    register: '/register',
+    kyc: 'https://verify-with.blockpass.org/?clientId=once_kyd_db4e8&serviceName=Once%20KYD&env=prod'
   }
 };
 

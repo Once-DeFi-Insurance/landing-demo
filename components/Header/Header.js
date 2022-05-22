@@ -147,7 +147,7 @@ function Header(props) {
             <nav className={clsx(classes.navMenu, classes.navAuth)}>
               <Hidden xsDown>
                 <Button href={routeLink.crypto.home}>
-                  {t('common:crypto-landing.header_login')}
+                  {t('common:crypto-landing.kyc')}
                 </Button>
                 <Button href={routeLink.crypto.home} variant="contained" color="secondary" className={classes.button}>
                   {t('common:crypto-landing.header_register')}
