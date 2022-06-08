@@ -125,6 +125,6 @@ MyApp.propTypes = {
   router: PropTypes.object.isRequired
 };
 
-MyApp.getInitialProps = async (appContext) => ({ ...await App.getInitialProps(appContext) });
+MyApp.getStaticProps = async (appContext) => ({ ...await App.getStaticProps(appContext) });
 
 export default appWithTranslation(MyApp);

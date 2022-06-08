@@ -10,8 +10,8 @@ module.exports = withImages({
     return {
       '/': { page: '/' },
       '/contact': { page: '/contact' },
-      '/login': { page: '/login' },
-      '/register': { page: '/register' },
+      //'/login': { page: '/login' },
+      //'/register': { page: '/register' },
       '/blank-page': { page: '/blank-page' },
     };
   },

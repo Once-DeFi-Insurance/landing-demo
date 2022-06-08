@@ -33,7 +33,7 @@ function Benefit(props) {
       <Container fixed={isDesktop}>
         <div className={classes.wrapper}>
           <Grid container>
-            <Grid item md={15}>
+            <Grid item md={12}>
               <div className={classes.desc}>
                 <Typography className={text.title2} variant="h3" align={isMobile ? 'center' : 'center'}>
                   {t('common:crypto-landing.benefit_title')}
