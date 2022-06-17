@@ -2,7 +2,7 @@ const link = {
   crypto: {
     home: './',
     contact: '/contact',
-    login: 'https://lucky-crumble-b5f467.netlify.app/',
+    login: 'https://onceassurance.netlify.app/',
     register: 'https://playful-licorice-863422.netlify.app'
   }
 };
